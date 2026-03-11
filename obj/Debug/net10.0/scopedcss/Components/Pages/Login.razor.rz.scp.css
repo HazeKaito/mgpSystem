@@ -1,0 +1,66 @@
+
+.imageContainer[b-00bxsqikxt] {
+    position: relative;
+    bottom: 50px;
+}
+
+.loginParentCard[b-00bxsqikxt] {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup[b-00bxsqikxt] {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    
+}
+
+.loginButton[b-00bxsqikxt] {
+    background-color: #05060f;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s, border-color .3s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+input[b-00bxsqikxt] {
+  max-width: 200pc;
+  height: 44px;
+  background-color: #05060f0a;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  size: 50;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+label[b-00bxsqikxt] {
+  display: block;
+  margin-bottom: .3rem;
+  font-size: .9rem;
+  font-weight: bold;
+  color: #05060f99;
+  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+input:hover[b-00bxsqikxt], input:focus[b-00bxsqikxt], .inputgroup:hover input[b-00bxsqikxt] {
+  outline: none;
+  border-color: #05060f;
+}
+
+.inputgroup:hover label[b-00bxsqikxt], input:focus[b-00bxsqikxt] {
+  color: #05060fc2;
+}
