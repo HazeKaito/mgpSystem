@@ -84,3 +84,4 @@ G:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\ref\mgpSystem.dl
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\scopedcss\Components\Pages\Login.razor.rz.scp.css
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\405hsy5jwy-{0}-sp2iack11d-sp2iack11d.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\j6bkd9ar84-{0}-sp2iack11d-sp2iack11d.gz
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\mgpSystem.sourcelink.json
