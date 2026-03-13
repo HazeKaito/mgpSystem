@@ -1,30 +1,31 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">mgpSystem</a>
+﻿@inject NavigationManager _navigationManager
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    
+    <div class="container justify-content-start">
+        <a class="navbar-brand" href="/home">
+            <img src="images/labworksLogo.png" alt="HealthMe Logo" width="30" height="30" />
+            HealthMe Labworks
+        </a>
     </div>
-</div>
+    
+    <div class="container justify-content-center">
+        <script src="@Assets["Components/Layout/NavMenu.razor.js"]"> </script>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/home">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/patients">Patients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/home">Inventory</a>
+            </li>
+        </ul>
+    </div>
 
-<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
-
-<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
-    <nav class="nav flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="home" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Dashboard
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="patients">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Patients
-            </NavLink>
-        </div>
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
-    </nav>
-</div>
+    <div class="container justify-content-end">
+        <button type="button" id="components-logout-button" class="btn btn-outline-danger" href="/">Logout</button>
+    </div>
+</nav>
 

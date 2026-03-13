@@ -48,19 +48,10 @@
 
 .nav-item[b-7nj9kri1aj] {
     font-size: 0.9rem;
-    padding-bottom: 0.5rem;
 }
 
-    .nav-item:first-of-type[b-7nj9kri1aj] {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type[b-7nj9kri1aj] {
-        padding-bottom: 1rem;
-    }
-
     .nav-item[b-7nj9kri1aj]  .nav-link {
-        color: #d7d7d7;
+        color: #6B6B6B;
         background: none;
         border: none;
         border-radius: 4px;
@@ -72,13 +63,13 @@
     }
 
 .nav-item[b-7nj9kri1aj]  a.active {
-    background-color: rgba(255,255,255,0.37);
-    color: white;
+    background-color: #C2E3FF;
+    color: #3546FF;
 }
 
 .nav-item[b-7nj9kri1aj]  .nav-link:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
+    background-color: #C2E3FF;
+    color: #3546FF;
 }
 
 .nav-scrollable[b-7nj9kri1aj] {

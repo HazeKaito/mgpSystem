@@ -82,6 +82,7 @@ g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\mgpSystem.pdb
 G:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\mgpSystem.genruntimeconfig.cache
 G:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\ref\mgpSystem.dll
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\scopedcss\Components\Pages\Login.razor.rz.scp.css
-g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\405hsy5jwy-{0}-sp2iack11d-sp2iack11d.gz
-g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\j6bkd9ar84-{0}-sp2iack11d-sp2iack11d.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\mgpSystem.sourcelink.json
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\br51qs2j5r-{0}-w08jcfj5se-w08jcfj5se.gz
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\405hsy5jwy-{0}-uty3gbjnwa-uty3gbjnwa.gz
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\j6bkd9ar84-{0}-uty3gbjnwa-uty3gbjnwa.gz

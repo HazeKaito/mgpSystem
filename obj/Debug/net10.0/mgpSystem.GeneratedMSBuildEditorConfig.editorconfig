@@ -22,54 +22,50 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/App.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Layout/LoginLayout.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Layout/LoginLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTG9naW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Dashboard.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Error.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/NotFound.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Patient.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Patient.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYXRpZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Routes.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/_Imports.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Layout/MainLayout.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-xtt46m6vd7
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Layout/NavMenu.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7nj9kri1aj
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Layout/ReconnectModal.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Layout/ReconnectModal.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVjb25uZWN0TW9kYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-fjy9ix8afi
 
-[G:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Login.razor]
+[g:/DeveloperFiles/systemDevelopment/mgpSystem/Components/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-00bxsqikxt
