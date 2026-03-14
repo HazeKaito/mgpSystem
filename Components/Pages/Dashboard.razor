@@ -1,7 +1,38 @@
 ﻿@page "/home"
 
 <PageTitle>Dashboard</PageTitle>
-
+<style>
+    body{
+    background-color: #E6F8FF;
+    }
+</style>
 <h1>Welcome, User!</h1>
+<br/>
+<div class="dashboardTopParentContainer">
 
-Welcome to your new app.
+    @*Patient Widget*@
+    <div class="patientContainer">
+        <div class="gridContainerPatient">
+            <p id="patientTitle">Number of Records</p>
+
+            <div class="patientImage">
+                <img id="patientImage" width="30px" height="30px" src="images/patientGroup.svg" />
+            </div>
+        </div>
+        <h2>21</h2>
+    </div>
+
+    @*Inventory Widget*@
+    
+    <div class="patientContainer">
+        <div class="gridContainerInventory">
+            <p id="inventoryTitle">Inventory Items</p>
+
+            <div class="inventoryImage">
+                <img id="inventoryImage" width="30px" height="30px" src="images/inventoryBox.svg"/>
+            </div>
+        </div>
+        <h2>500</h2>
+    </div>
+
+</div>

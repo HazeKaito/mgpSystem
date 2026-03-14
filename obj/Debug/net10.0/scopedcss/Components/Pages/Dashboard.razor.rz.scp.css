@@ -1,0 +1,65 @@
+.dashboardTopParentContainer[b-lmg27fux0d] {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/*Patient Widget*/
+.patientContainer[b-lmg27fux0d] {
+    height: 30vh;
+    width: 50vh;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    text-align: left;
+    padding: 20px;
+}
+
+.gridContainerPatient[b-lmg27fux0d] {
+    display: grid;
+    grid-template-columns: 38vh 20vh;
+}
+
+#patientTitle[b-lmg27fux0d] {
+    size: 18px;
+    color: #6B6B6B;
+}
+
+.patientImage[b-lmg27fux0d] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C2E3FF;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/*Inventory Widget*/
+.inventoryContainer[b-lmg27fux0d] {
+    height: 30vh;
+    width: 50vh;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    text-align: left;
+    padding: 20px;
+}
+
+.gridContainerInventory[b-lmg27fux0d] {
+    display: grid;
+    grid-template-columns: 38vh 20vh;
+}
+
+#inventoryTitle[b-lmg27fux0d] {
+    size: 18px;
+    color: #6B6B6B;
+}
+
+.inventoryImage[b-lmg27fux0d] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D0FFD4;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}

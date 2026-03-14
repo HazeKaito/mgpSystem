@@ -1,0 +1,65 @@
+.dashboardTopParentContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/*Patient Widget*/
+.patientContainer {
+    height: 30vh;
+    width: 50vh;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    text-align: left;
+    padding: 20px;
+}
+
+.gridContainerPatient {
+    display: grid;
+    grid-template-columns: 38vh 20vh;
+}
+
+#patientTitle {
+    size: 18px;
+    color: #6B6B6B;
+}
+
+.patientImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C2E3FF;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/*Inventory Widget*/
+.inventoryContainer {
+    height: 30vh;
+    width: 50vh;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    text-align: left;
+    padding: 20px;
+}
+
+.gridContainerInventory {
+    display: grid;
+    grid-template-columns: 38vh 20vh;
+}
+
+#inventoryTitle {
+    size: 18px;
+    color: #6B6B6B;
+}
+
+.inventoryImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D0FFD4;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}

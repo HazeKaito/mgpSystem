@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "G:\\DeveloperFiles\\systemDevelopment\\mgpSystem\\mgpSystem.csproj": {}
+    "D:\\DeveloperFiles\\SystemDevelopment\\mgpSystem\\mgpSystem.csproj": {}
   },
   "projects": {
-    "G:\\DeveloperFiles\\systemDevelopment\\mgpSystem\\mgpSystem.csproj": {
+    "D:\\DeveloperFiles\\SystemDevelopment\\mgpSystem\\mgpSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\DeveloperFiles\\systemDevelopment\\mgpSystem\\mgpSystem.csproj",
+        "projectUniqueName": "D:\\DeveloperFiles\\SystemDevelopment\\mgpSystem\\mgpSystem.csproj",
         "projectName": "mgpSystem",
-        "projectPath": "G:\\DeveloperFiles\\systemDevelopment\\mgpSystem\\mgpSystem.csproj",
+        "projectPath": "D:\\DeveloperFiles\\SystemDevelopment\\mgpSystem\\mgpSystem.csproj",
         "packagesPath": "C:\\Users\\cuteb\\.nuget\\packages\\",
-        "outputPath": "G:\\DeveloperFiles\\systemDevelopment\\mgpSystem\\obj\\",
+        "outputPath": "D:\\DeveloperFiles\\SystemDevelopment\\mgpSystem\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "G:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cuteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cuteb\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -53,7 +47,7 @@
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.3, )",
+              "version": "[10.0.4, )",
               "autoReferenced": true
             }
           },
@@ -76,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
