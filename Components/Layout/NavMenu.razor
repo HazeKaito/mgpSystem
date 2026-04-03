@@ -1,4 +1,5 @@
 ﻿@inject NavigationManager _navigationManager
+@rendermode InteractiveServer
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     
@@ -24,7 +25,15 @@
     </div>
 
     <div class="container justify-content-end">
-        <button type="button" id="components-logout-button" class="btn btn-outline-danger" href="/">Logout</button>
+        <button type="button" id="components-logout-button" class="btn btn-outline-danger" @onclick="logoutFunc">Logout</button>
     </div>
 </nav>
 
+@code {
+
+    private void logoutFunc()
+    {
+        _navigationManager.NavigateTo("/");
+    }
+
+}

@@ -1,4 +1,5 @@
 ﻿@page "/home"
+@rendermode InteractiveServer
 
 <PageTitle>Dashboard</PageTitle>
 <style>
@@ -11,28 +12,65 @@
 <div class="dashboardTopParentContainer">
 
     @*Patient Widget*@
-    <div class="patientContainer">
-        <div class="gridContainerPatient">
-            <p id="patientTitle">Number of Records</p>
+    <div class="moduleContainer">
+        <div class="gridContainer">
+            <p id="mainWidgetTitle">Number of Records</p>
 
             <div class="patientImage">
                 <img id="patientImage" width="30px" height="30px" src="images/patientGroup.svg" />
             </div>
         </div>
-        <h2>21</h2>
+        <h2>21</h2> @*overall number of patient records*@
     </div>
 
     @*Inventory Widget*@
     
-    <div class="patientContainer">
-        <div class="gridContainerInventory">
-            <p id="inventoryTitle">Inventory Items</p>
+    <div class="moduleContainer">
+        <div class="gridContainer">
+            <p id="mainWidgetTitle">Inventory Items</p>
 
             <div class="inventoryImage">
                 <img id="inventoryImage" width="30px" height="30px" src="images/inventoryBox.svg"/>
             </div>
         </div>
-        <h2>500</h2>
+        <h2>500</h2> @*number of inventory items*@
     </div>
 
+    @*Tests Widget*@
+    
+    <div class="moduleContainer">
+        <div class="gridContainer">
+            <p id="mainWidgetTitle">Tests Today</p>
+
+            <div class="testsImage">
+                <img id="testsImage" width="30px" height="30px" src="images/testsImage.svg"/>
+            </div>
+        </div>
+        <h2>12</h2> @*number of tests *@
+    </div>
+
+    @*Low Stocks Widget*@
+    <div class="moduleContainer">
+        <div class="gridContainer">
+            <p id="mainWidgetTitle">Low Stocks</p>
+
+            <div class="lowStocksImage">
+                <img id="lowStocksImage" width="30px" height="30px" src="images/lowStockImage.svg"/>
+            </div>
+        </div>
+        <h2>8</h2> @*number of low stock items *@
+    </div>
 </div>
+
+<div class="quickActionParentContainer">
+    <div class="quickActionWidget">
+        <p id="quickActionTitle">Quick Actions</p>
+        
+        <div class="quickActionButtons">
+            <button href="/patients" type="button" class="btn btn-outline-secondary">Add Patient Record</button>
+            <button href="/tests" type="button" class="btn btn-outline-secondary">Test Overview</button>
+            <button href="/inventory" type="button" class="btn btn-outline-secondary">Update Inventory</button>
+        </div>
+    </div>
+</div>
+

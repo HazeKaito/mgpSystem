@@ -1,28 +1,36 @@
-.dashboardTopParentContainer {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+
+button {
+    text-align: left;
 }
 
-/*Patient Widget*/
-.patientContainer {
-    height: 30vh;
-    width: 50vh;
+.dashboardTopParentContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+
+.moduleContainer {
+    height: 20vh;
+    width: 45vh;
     background-color: #FFFFFF;
+    stroke: #6B6B6B;
+    stroke-width: 1px;
     border-radius: 30px;
     text-align: left;
     padding: 20px;
 }
 
-.gridContainerPatient {
+.gridContainer {
     display: grid;
-    grid-template-columns: 38vh 20vh;
+    grid-template-columns: 35vh 20vh;
 }
 
-#patientTitle {
+#mainWidgetTitle {
     size: 18px;
     color: #6B6B6B;
 }
+
+/*Patient Widget*/
 
 .patientImage {
     display: flex;
@@ -35,24 +43,7 @@
 }
 
 /*Inventory Widget*/
-.inventoryContainer {
-    height: 30vh;
-    width: 50vh;
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    text-align: left;
-    padding: 20px;
-}
 
-.gridContainerInventory {
-    display: grid;
-    grid-template-columns: 38vh 20vh;
-}
-
-#inventoryTitle {
-    size: 18px;
-    color: #6B6B6B;
-}
 
 .inventoryImage {
     display: flex;
@@ -62,4 +53,53 @@
     width: 40px;
     height: 40px;
     border-radius: 10px;
+}
+
+/*Tests Widget*/
+
+
+.testsImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcd1ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/*Low Stocks Widget*/
+
+.lowStocksImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fab3ad;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.quickActionParentContainer {
+    height: 25vh;
+    width: 40vh;
+    background-color: #FFFFFF;
+    stroke: #6B6B6B;
+    stroke-width: 1px;
+    border-radius: 30px;
+    text-align: left;
+    align-content: left;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+#lowquickActionTitle {
+    size: 18px;
+    color: #6B6B6B;
+}
+
+.quickActionButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

@@ -1,28 +1,36 @@
-.dashboardTopParentContainer[b-lmg27fux0d] {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+
+button[b-lmg27fux0d] {
+    text-align: left;
 }
 
-/*Patient Widget*/
-.patientContainer[b-lmg27fux0d] {
-    height: 30vh;
-    width: 50vh;
+.dashboardTopParentContainer[b-lmg27fux0d] {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+
+.moduleContainer[b-lmg27fux0d] {
+    height: 20vh;
+    width: 45vh;
     background-color: #FFFFFF;
+    stroke: #6B6B6B;
+    stroke-width: 1px;
     border-radius: 30px;
     text-align: left;
     padding: 20px;
 }
 
-.gridContainerPatient[b-lmg27fux0d] {
+.gridContainer[b-lmg27fux0d] {
     display: grid;
-    grid-template-columns: 38vh 20vh;
+    grid-template-columns: 35vh 20vh;
 }
 
-#patientTitle[b-lmg27fux0d] {
+#mainWidgetTitle[b-lmg27fux0d] {
     size: 18px;
     color: #6B6B6B;
 }
+
+/*Patient Widget*/
 
 .patientImage[b-lmg27fux0d] {
     display: flex;
@@ -35,24 +43,7 @@
 }
 
 /*Inventory Widget*/
-.inventoryContainer[b-lmg27fux0d] {
-    height: 30vh;
-    width: 50vh;
-    background-color: #FFFFFF;
-    border-radius: 30px;
-    text-align: left;
-    padding: 20px;
-}
 
-.gridContainerInventory[b-lmg27fux0d] {
-    display: grid;
-    grid-template-columns: 38vh 20vh;
-}
-
-#inventoryTitle[b-lmg27fux0d] {
-    size: 18px;
-    color: #6B6B6B;
-}
 
 .inventoryImage[b-lmg27fux0d] {
     display: flex;
@@ -62,4 +53,53 @@
     width: 40px;
     height: 40px;
     border-radius: 10px;
+}
+
+/*Tests Widget*/
+
+
+.testsImage[b-lmg27fux0d] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcd1ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/*Low Stocks Widget*/
+
+.lowStocksImage[b-lmg27fux0d] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fab3ad;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.quickActionParentContainer[b-lmg27fux0d] {
+    height: 25vh;
+    width: 40vh;
+    background-color: #FFFFFF;
+    stroke: #6B6B6B;
+    stroke-width: 1px;
+    border-radius: 30px;
+    text-align: left;
+    align-content: left;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+#lowquickActionTitle[b-lmg27fux0d] {
+    size: 18px;
+    color: #6B6B6B;
+}
+
+.quickActionButtons[b-lmg27fux0d] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

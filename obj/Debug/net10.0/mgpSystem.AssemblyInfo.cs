@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mgpSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f5b5198c64a416d22108f451ed158a6c982d91")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12c7ee4af193fdbe66ee18dc884f1d457840c2ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("mgpSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mgpSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

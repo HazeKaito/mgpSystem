@@ -1,4 +1,5 @@
 @page "/"
+@using Microsoft.VisualBasic
 @layout mgpSystem.Components.Layout.LoginLayout
 @inject NavigationManager _navigationManager
 @rendermode InteractiveServer 
@@ -21,21 +22,33 @@
             <h1>HealthMe Labworks</h1>
             <h1>Login</h1>
             <br/>
+            <p>@statusMessage</p>
             <div class="inputGroup">
                 <label for="username">Username</label>
-                <input type="text" placeholder="Username"/>
+                <input type="text" placeholder="Username" @bind="username"/>
                 <label for="password">Password</label>
-                <input type="password" placeholder="Password"/>
-                <button type="button" class="loginButton" @onclick='NavigateToHome'>Login</button> @*Do not forget to modify this! -Ceankaye *@
+                <input type="password" placeholder="Password" @bind="password"/>
+                <button type="button" class="loginButton" @onclick='checkCredentials'>Login</button> @*Do not forget to modify this! -Ceankaye *@
             </div>
     </div>
 
 @code {
-    
-    private void NavigateToHome()
+    public string statusMessage { get; set; }
+    private string username { get; set; }
+    private string password { get; set; }
+    private void checkCredentials()
     {
-        _navigationManager.NavigateTo("/home");
+        if (this.username == "admin" && this.password == "password")
+        {
+            statusMessage = "Login successful!";
+            _navigationManager.NavigateTo("/home");
+        }
+        else
+        {
+            statusMessage = "Invalid username or password.";
+        }
     }
 
+    
 
 }
