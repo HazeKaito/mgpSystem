@@ -2,12 +2,8 @@
 @rendermode InteractiveServer
 
 <PageTitle>Dashboard</PageTitle>
-<style>
-    body{
-    background-color: #E6F8FF;
-    }
-</style>
 <h1>Welcome, User!</h1>
+<p class="dashboardSubtitle">Here is your lab operations snapshot for today.</p>
 <br/>
 <div class="dashboardTopParentContainer">
 
@@ -67,9 +63,9 @@
         <p id="quickActionTitle">Quick Actions</p>
         
         <div class="quickActionButtons">
-            <button href="/patients" type="button" class="btn btn-outline-secondary">Add Patient Record</button>
-            <button href="/tests" type="button" class="btn btn-outline-secondary">Test Overview</button>
-            <button href="/inventory" type="button" class="btn btn-outline-secondary">Update Inventory</button>
+            <NavLink href="/patients" class="btn btn-outline-secondary">Add Patient Record</NavLink>
+            <NavLink href="/home" class="btn btn-outline-secondary">Test Overview</NavLink>
+            <NavLink href="/inventory" class="btn btn-outline-secondary">Update Inventory</NavLink>
         </div>
     </div>
 </div>

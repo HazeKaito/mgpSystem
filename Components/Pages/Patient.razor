@@ -3,9 +3,110 @@
 
 <PageTitle>Patients</PageTitle>
 
-<h3>Patients</h3>
+<section class="patients-page">
+    <header class="patients-header">
+        <div>
+            <h1>Patient Records</h1>
+            <p>Track patient visits, test progress, and contact information in one place.</p>
+        </div>
+        <button type="button" class="btn btn-primary">+ Add New Patient</button>
+    </header>
 
-@code {
+    <section class="patients-metrics">
+        <article class="metric-card">
+            <span>Total Patients</span>
+            <h2>842</h2>
+        </article>
+        <article class="metric-card">
+            <span>New This Week</span>
+            <h2>37</h2>
+        </article>
+        <article class="metric-card">
+            <span>Pending Results</span>
+            <h2>24</h2>
+        </article>
+        <article class="metric-card">
+            <span>Discharged</span>
+            <h2>118</h2>
+        </article>
+    </section>
 
+    <section class="patients-panel">
+        <div class="patients-toolbar">
+            <input type="text" placeholder="Search by patient name or ID" />
+            <select>
+                <option>All Status</option>
+                <option>Active</option>
+                <option>Pending</option>
+                <option>Discharged</option>
+            </select>
+            <select>
+                <option>All Departments</option>
+                <option>Hematology</option>
+                <option>Immunology</option>
+                <option>Microbiology</option>
+            </select>
+        </div>
 
-}
+        <div class="patients-table-wrap">
+            <table class="patients-table">
+                <thead>
+                    <tr>
+                        <th>Patient</th>
+                        <th>Patient ID</th>
+                        <th>Department</th>
+                        <th>Last Visit</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <strong>Maria Santos</strong>
+                            <small>maria.santos@email.com</small>
+                        </td>
+                        <td>PT-1042</td>
+                        <td>Hematology</td>
+                        <td>Apr 10, 2026</td>
+                        <td><span class="status-badge active">Active</span></td>
+                        <td><button type="button" class="btn btn-sm btn-outline-secondary">View</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>John Delacruz</strong>
+                            <small>john.delacruz@email.com</small>
+                        </td>
+                        <td>PT-1038</td>
+                        <td>Microbiology</td>
+                        <td>Apr 09, 2026</td>
+                        <td><span class="status-badge pending">Pending</span></td>
+                        <td><button type="button" class="btn btn-sm btn-outline-secondary">View</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Ana Reyes</strong>
+                            <small>ana.reyes@email.com</small>
+                        </td>
+                        <td>PT-1021</td>
+                        <td>Immunology</td>
+                        <td>Apr 06, 2026</td>
+                        <td><span class="status-badge discharged">Discharged</span></td>
+                        <td><button type="button" class="btn btn-sm btn-outline-secondary">View</button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <strong>Kevin Domingo</strong>
+                            <small>kevin.domingo@email.com</small>
+                        </td>
+                        <td>PT-1014</td>
+                        <td>Hematology</td>
+                        <td>Apr 03, 2026</td>
+                        <td><span class="status-badge active">Active</span></td>
+                        <td><button type="button" class="btn btn-sm btn-outline-secondary">View</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</section>
