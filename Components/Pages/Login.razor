@@ -8,34 +8,30 @@
 
 <PageTitle>Login</PageTitle>
 
-<style>
-    body {
-        background-color: #E6F8FF;
-    }
-</style>
-
-    <div class="loginParentCard">
-        <div class="imageContainer">
-            <img src="images/LabworksLogo.png" alt="HealthMe Logo"/>
-        </div>
-        
-            <h1>HealthMe Labworks</h1>
-            <h1>Login</h1>
-            <br/>
-            <p>@statusMessage</p>
-            <div class="inputGroup">
-                <label for="username">Username</label>
-                <input type="text" placeholder="Username" @bind="username"/>
-                <label for="password">Password</label>
-                <input type="password" placeholder="Password" @bind="password"/>
-                <button type="button" class="loginButton" @onclick='checkCredentials'>Login</button> @*Do not forget to modify this! -Ceankaye *@
-            </div>
+<div class="loginParentCard">
+    <div class="imageContainer">
+        <img src="images/LabworksLogo.png" alt="HealthMe Logo" />
     </div>
 
+    <h1>HealthMe Labworks</h1>
+    <h2>Sign in to continue</h2>
+    <p class="statusMessage">@statusMessage</p>
+
+    <div class="inputGroup">
+        <label for="username">Username</label>
+        <input id="username" type="text" placeholder="Username" @bind="username" />
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Password" @bind="password" />
+
+        <button type="button" class="loginButton" @onclick='checkCredentials'>Login</button>
+    </div>
+</div>
+
 @code {
-    public string statusMessage { get; set; }
-    private string username { get; set; }
-    private string password { get; set; }
+    public string statusMessage { get; set; } = string.Empty;
+    private string username { get; set; } = string.Empty;
+    private string password { get; set; } = string.Empty;
     private void checkCredentials()
     {
         if (this.username == "admin" && this.password == "password")

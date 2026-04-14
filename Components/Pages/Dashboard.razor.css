@@ -1,105 +1,120 @@
 
-button {
-    text-align: left;
+.dashboardSubtitle {
+    margin-top: -0.45rem;
+    color: var(--text-muted);
 }
 
 .dashboardTopParentContainer {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 5px;
+    grid-template-columns: repeat(4, minmax(190px, 1fr));
+    gap: 0.85rem;
 }
 
 .moduleContainer {
-    height: 20vh;
-    width: 45vh;
-    background-color: #FFFFFF;
-    stroke: #6B6B6B;
-    stroke-width: 1px;
-    border-radius: 30px;
+    min-height: 168px;
+    background: #fff;
+    border: 1px solid rgba(152, 176, 216, 0.34);
+    border-radius: 18px;
     text-align: left;
-    padding: 20px;
+    padding: 1rem 1.05rem;
+    box-shadow: 0 8px 22px rgba(54, 84, 137, 0.1);
 }
 
 .gridContainer {
-    display: grid;
-    grid-template-columns: 35vh 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.8rem;
 }
 
 #mainWidgetTitle {
-    size: 18px;
-    color: #6B6B6B;
+    margin: 0;
+    color: #5d6d8d;
+    font-size: 0.94rem;
 }
 
-/*Patient Widget*/
-
-.patientImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #C2E3FF;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
+.moduleContainer h2 {
+    margin: 0.9rem 0 0;
+    font-size: 1.9rem;
 }
 
-/*Inventory Widget*/
-
-
-.inventoryImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #D0FFD4;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-}
-
-/*Tests Widget*/
-
-
-.testsImage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #dcd1ff;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-}
-
-/*Low Stocks Widget*/
-
+.patientImage,
+.inventoryImage,
+.testsImage,
 .lowStocksImage {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fab3ad;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+}
+
+.patientImage {
+    background-color: #cde5ff;
+}
+
+.inventoryImage {
+    background-color: #d8f9dc;
+}
+
+.testsImage {
+    background-color: #e6dbff;
+}
+
+.lowStocksImage {
+    background-color: #ffd3cf;
 }
 
 .quickActionParentContainer {
-    height: 25vh;
-    width: 40vh;
-    background-color: #FFFFFF;
-    stroke: #6B6B6B;
-    stroke-width: 1px;
-    border-radius: 30px;
+    width: min(440px, 100%);
+    background: #fff;
+    border: 1px solid rgba(152, 176, 216, 0.34);
+    border-radius: 18px;
     text-align: left;
-    align-content: left;
-    padding: 20px;
-    margin-top: 20px;
-
+    padding: 1rem 1.05rem 1.2rem;
+    margin-top: 1rem;
+    box-shadow: 0 8px 22px rgba(54, 84, 137, 0.1);
 }
-#lowquickActionTitle {
-    size: 18px;
-    color: #6B6B6B;
+
+#quickActionTitle {
+    margin-bottom: 0.75rem;
+    color: #415373;
+    font-weight: 600;
 }
 
 .quickActionButtons {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.55rem;
+}
+
+.quickActionButtons .btn {
+    text-align: left;
+    border-radius: 10px;
+    border-color: #bed5f8;
+    color: #295ca7;
+    background: #f8fbff;
+}
+
+.quickActionButtons .btn:hover {
+    background: #ebf4ff;
+    border-color: #9fc1f4;
+    color: #17498d;
+}
+
+@media (max-width: 1100px) {
+    .dashboardTopParentContainer {
+        grid-template-columns: repeat(2, minmax(180px, 1fr));
+    }
+}
+
+@media (max-width: 650px) {
+    .dashboardTopParentContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .moduleContainer {
+        min-height: 150px;
+    }
 }

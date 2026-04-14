@@ -20,7 +20,7 @@ function handleReconnectStateChanged(event) {
     }
 }
 
-async function retry() {
+async function retry() {q
     document.removeEventListener("visibilitychange", retryWhenDocumentBecomesVisible);
 
     try {

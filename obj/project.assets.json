@@ -51,7 +51,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.App.Internal.Assets/10.0.3": {
+      "Microsoft.AspNetCore.App.Internal.Assets/10.0.2": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.App.Internal.Assets.props": {},
@@ -1100,10 +1100,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.App.Internal.Assets/10.0.3": {
-      "sha512": "mr3Zn+ht8lijYvlMIasftw9opU9hsLKDdnOgQMmYI3RjWPJLOF9l8+YHDseRkTs97wOrULmJgo/NDCmzL/EGDg==",
+    "Microsoft.AspNetCore.App.Internal.Assets/10.0.2": {
+      "sha512": "fMAqrUm+aspxRAsCJ6Hlgs96XSHwNIr9HBNt7wyBAzQkPlfE7w+0C4NzDoJnso5YZyDI0VcRtEXxG9odt3KiZA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.app.internal.assets/10.0.3",
+      "path": "microsoft.aspnetcore.app.internal.assets/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1119,7 +1119,7 @@
         "build/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildTransitive/Microsoft.AspNetCore.App.Internal.Assets.targets",
-        "microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.app.internal.assets.10.0.2.nupkg.sha512",
         "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
     },
@@ -3108,30 +3108,30 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.3",
+      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.2",
       "Microsoft.EntityFrameworkCore >= 10.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cuteb\\.nuget\\packages\\": {},
-    "G:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\DeveloperFiles\\systemDevelopment\\mgpSystem\\mgpSystem.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\mgpclone\\mgpSystem\\mgpSystem.csproj",
       "projectName": "mgpSystem",
-      "projectPath": "G:\\DeveloperFiles\\systemDevelopment\\mgpSystem\\mgpSystem.csproj",
-      "packagesPath": "C:\\Users\\cuteb\\.nuget\\packages\\",
-      "outputPath": "G:\\DeveloperFiles\\systemDevelopment\\mgpSystem\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\mgpclone\\mgpSystem\\mgpSystem.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\mgpclone\\mgpSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "G:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\cuteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3140,6 +3140,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3167,7 +3168,7 @@
           "Microsoft.AspNetCore.App.Internal.Assets": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.3, )",
+            "version": "[10.0.2, )",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore": {
@@ -3204,7 +3205,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
