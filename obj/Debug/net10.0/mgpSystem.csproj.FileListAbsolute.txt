@@ -23,7 +23,6 @@ g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\scopedcss\Compon
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\scopedcss\bundle\mgpSystem.styles.css
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\scopedcss\projectbundle\mgpSystem.bundle.scp.css
-g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\84zidn21e3-{0}-khy4lop6wu-khy4lop6wu.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\o55grula38-{0}-bqjiyaj88i-bqjiyaj88i.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\bw0x056hro-{0}-c2jlpeoesf-c2jlpeoesf.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\ja323bhudy-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -68,7 +67,6 @@ g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\yl2ml
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\nbury9pcd1-{0}-h1s4sie4z3-h1s4sie4z3.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\f5ulbsmj8l-{0}-63fj8s7r0e-63fj8s7r0e.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\2x7uyiyjm0-{0}-0j3bgjxly4-0j3bgjxly4.gz
-g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\ascicptuft-{0}-abdmv1u4y3-abdmv1u4y3.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\b9m6hro7yd-{0}-ax6tuj8tun-ax6tuj8tun.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\2h8rc0444n-{0}-zr4b1gdhaw-zr4b1gdhaw.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\staticwebassets.build.json
@@ -305,8 +303,6 @@ g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\mgpSystem.csproj
 G:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\mgpSystem.csproj.Up2Date
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\2fsqd16lfh-{0}-n4t5haoe8e-n4t5haoe8e.gz
 g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\wx4gw1y57b-{0}-hpfuprum0g-hpfuprum0g.gz
-g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\405hsy5jwy-{0}-5uefyzixre-5uefyzixre.gz
-g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\j6bkd9ar84-{0}-5uefyzixre-5uefyzixre.gz
 c:\Users\User\Desktop\mgpclone\mgpSystem\bin\Debug\net10.0\appsettings.Development.json
 c:\Users\User\Desktop\mgpclone\mgpSystem\bin\Debug\net10.0\appsettings.json
 c:\Users\User\Desktop\mgpclone\mgpSystem\bin\Debug\net10.0\mgpSystem.staticwebassets.runtime.json
@@ -527,3 +523,8 @@ C:\Users\User\Desktop\mgpclone\mgpSystem\obj\Debug\net10.0\compressed\84zidn21e3
 C:\Users\User\Desktop\mgpclone\mgpSystem\obj\Debug\net10.0\scopedcss\Components\Pages\Patient.razor.rz.scp.css
 C:\Users\User\Desktop\mgpclone\mgpSystem\obj\Debug\net10.0\compressed\405hsy5jwy-{0}-20qd7zhy4s-20qd7zhy4s.gz
 C:\Users\User\Desktop\mgpclone\mgpSystem\obj\Debug\net10.0\compressed\j6bkd9ar84-{0}-20qd7zhy4s-20qd7zhy4s.gz
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\scopedcss\Components\Pages\Patient.razor.rz.scp.css
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\84zidn21e3-{0}-jh5v8yonj2-jh5v8yonj2.gz
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\ascicptuft-{0}-3yw7hbje51-3yw7hbje51.gz
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\405hsy5jwy-{0}-20qd7zhy4s-20qd7zhy4s.gz
+g:\DeveloperFiles\systemDevelopment\mgpSystem\obj\Debug\net10.0\compressed\j6bkd9ar84-{0}-20qd7zhy4s-20qd7zhy4s.gz

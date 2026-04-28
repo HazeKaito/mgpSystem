@@ -17,6 +17,7 @@
     <h2>Sign in to continue</h2>
     <p class="statusMessage">@statusMessage</p>
 
+    @*Login Form*@
     <div class="inputGroup">
         <label for="username">Username</label>
         <input id="username" type="text" placeholder="Username" @bind="username" />
@@ -29,6 +30,8 @@
 </div>
 
 @code {
+    
+    @*Temporary Login Logic*@
     public string statusMessage { get; set; } = string.Empty;
     private string username { get; set; } = string.Empty;
     private string password { get; set; } = string.Empty;

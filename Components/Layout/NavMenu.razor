@@ -21,9 +21,20 @@
             <li class="nav-item">
                 <NavLink class="nav-link" aria-current="page" href="/finance">Finance</NavLink>
             </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" aria-current="page" href="/tests">Test Overview</NavLink>
+            </li>
         </ul>
-
-        <button type="button" id="components-logout-button" class="btn btn-outline-danger" @onclick="logoutFunc">Logout</button>
+        <AuthorizeView>
+            <Authorized>
+                <p class="user-name">Welcome, @context.User.Identity.Name!</p>
+                <button type="button" id="components-logout-button" class="btn btn-outline-danger" @onclick="logoutFunc">Logout</button>
+            </Authorized>
+            <NotAuthorized>
+                <p class="user-name">Welcome, Guest!</p>
+            </NotAuthorized>
+        </AuthorizeView>
+        
     </div>
 </nav>
 
